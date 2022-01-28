@@ -9,7 +9,7 @@ import React from 'react';
     <div className="nav">
         <div className="navlist">
         <li className="items" onClick={()=>{this.props.click('home')}}>Home</li>
-        <li className="items" onClick={()=>{this.props.click('About')}}>About</li>
+        <li className="items" onClick={()=>{this.props.click('Postes')}}>Postes</li>
         <li className="items" onClick={()=>{this.props.click('New Blog')}}>New Blog</li>
         </div>
     </div>
