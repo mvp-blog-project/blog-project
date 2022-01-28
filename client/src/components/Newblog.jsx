@@ -14,7 +14,7 @@ this.setState({[e.target.name]: e.target.value})
 }
 click(){
   console.log(this.state)
-  axios.post("/create/blog",this.state)
+  axios.post("/api/create/blog",this.state)
   .catch((err) => console.log(err))
 
 }
