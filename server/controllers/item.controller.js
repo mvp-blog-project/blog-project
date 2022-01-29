@@ -9,7 +9,8 @@ var post=(req,res)=>{
     blog.insertMany({
         title: req.body.title,
         blog: req.body.blog,
-        img: req.body.img
+        img: req.body.img,
+        category: req.body.category,
     })
     
 }
